@@ -5,7 +5,8 @@ dependencies:
 
 sources:
 - url: https://github.com/erdc-cm/superlu
-  key: git:51cd6c3f05d4701fa7163aee4e356e11ac81153e
+  key: git:71bb7a21867e8eb22ad6ba5fa6d6f63d6e5a873f
+  #key: git:51cd6c3f05d4701fa7163aee4e356e11ac81153e
 
 build_stages:
 - when: platform == 'Darwin'

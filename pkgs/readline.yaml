@@ -15,4 +15,4 @@ build_stages:
     mode: replace
     handler: bash
     bash: |
-      make SHOBJ_CFLAGS="-fPIC -D_REENTRANT" SHOBJ_LDFLAGS="-shared -Wl,-rpath=$NCURSES_DIR/lib" SHLIB_LIBS="-ltinfo"
+      make SHOBJ_CFLAGS="-fPIC -D_REENTRANT" SHOBJ_LDFLAGS="-shared -Wl,-rpath,$NCURSES_DIR/lib" SHLIB_LIBS="-ltinfo"
